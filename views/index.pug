@@ -4,7 +4,7 @@ block content
   // Navigation
   nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
     .container
-      a.navbar-brand.js-scroll-trigger(href='#page-top') ©Sivut.CO
+      a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
       button.navbar-toggler.navbar-toggler-right(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
         | Menu
         i.fas.fa-bars
@@ -15,14 +15,14 @@ block content
           li.nav-item
             a.nav-link.js-scroll-trigger(href='#projects') Bicicletas
           li.nav-item
-            a.nav-link.js-scroll-trigger(href='#signup') Contacto
+            a.nav-link.js-scroll-trigger(href='#signup') Contactos
   // Masthead
   header.masthead
     .container.d-flex.h-100.align-items-center
       .mx-auto.text-center
-        h1.mx-auto.my-0.text-uppercase REDBIKE
-        h2.text-white-50.mx-auto.mt-2.mb-5 La primera comunidad online de ciclistas de pista en Colombia. Descubre una forma totalmente nueva de rodar por nuestro país.
-        a.btn.btn-primary.js-scroll-trigger(href='#about') Empieza ahora
+        h1.mx-auto.my-0.text-uppercase Red de bicicletas
+        h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
+        a.btn.btn-primary.js-scroll-trigger(href='#about') Get Started
   // About
   section#about.about-section.text-center
     .container
@@ -31,9 +31,9 @@ block content
           h2.text-white.mb-4 Built with Bootstrap 4
           p.text-white-50
             | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            a(href='https://startbootstrap.com/template-overviews/grayscale/')  the preview page
+            a(href='https://startbootstrap.com/template-overviews/grayscale/') the preview page
             |                             . The theme is open source, and you can use it for any purpose, personal or commercial.
-      img.img-fluid(src='/assets/img/ipad.png' alt='')
+      img.img-fluid(src='/img/ipad.png' alt='')
   // Projects
   section#projects.projects-section.bg-light
     .container
@@ -91,5 +91,7 @@ block content
   script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
   // Core theme JS
   script(src='/javascripts/scripts.js')
+  //map
+  script(src='https://unpkg.com/leaflet@1.7.1/dist/leaflet.js' integrity='sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==' crossorigin='')
   script(src='/javascripts/map.js')
 
